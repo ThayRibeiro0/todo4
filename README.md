@@ -36,7 +36,11 @@ To work with github pages install `npm i gh-pages -save-dev` and package.json ad
 "deploy": "gh-pages -d dist"
 
 and in vite.config.js:
-base: "/repositoryname" 
+base: "/repositoryname"
+
+after this run `npm run deploy` if run without error works, then its only go to github pages and wait appear the link and you can share your project with others users.
+
+Check my project: https://thayribeiro0.github.io/todo4/
 
 ## Description
 
