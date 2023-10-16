@@ -26,6 +26,18 @@ run in the terminal to this project:
 
 # Project from Matheus Battisti - Hora de Codar - "Time to Code" - Youtube (React Course)
 
+## Deploy 
+Create new repository in Githib with the same name of this project `todo4` save like public to others people can see and follow the instructions of the github.
+Open the project and terminal and run `git init`, readme create you same then jump and run `git add .`, after `git commit -m "Message commit that you would like put here"`, git branch -M main, copy and pasta the `git remove add origin url` that appear in the git with the url to dont have error and `git push -u origin main` after this upload the page and you can see the project in the github.
+
+To work with github pages install `npm i gh-pages -save-dev` and package.json add:
+<username>.github.io/<repositoryname>
+"predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
+
+and in vite.config.js:
+base: "/repositoryname" 
+
 ## Description
 
 Learning how works the React library.
